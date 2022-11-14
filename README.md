@@ -4,7 +4,7 @@ Esse desafio foi feito pela Linx para uma vaga de recrutamento para **FrontEnd D
 
 Eu realizei esse desafio apenas para testar minhas habilidades e adiquirir conhecimentos, não me candidatei para a vaga.
 
-[link do desafio](https://github.com/chaordic/frontend-developer-challenge)
+[Link do desafio.](https://github.com/chaordic/frontend-developer-challenge)
 
 ## O desafio
 
