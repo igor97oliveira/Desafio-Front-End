@@ -16,3 +16,5 @@ O desafio consiste em criar uma landing page seguindo o layout de acordo com o m
 - O site está responsivo.
 - Botões de **Comprar** e **Enviar** não possuem funcionalidade.
 - Foi utilizado a biblioteca **[Cleave](https://nosir.github.io/cleave.js/)** para colocar uma mask no campo de CPF do formulário
+
+[Acessar o site do projeto](https://igor97oliveira.github.io/Desafio-Front-End/)
