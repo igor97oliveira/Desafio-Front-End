@@ -1,0 +1,124 @@
+@media (min-width: 425px) {
+  .container-header .titleBtn button {
+    width: 160px;
+  }
+}
+@media (min-width: 768px) {
+  .container-header {
+    background-image: -webkit-linear-gradient(
+      79deg,
+      var(--background) 27.8%,
+      var(--background-details) 28%
+    );
+  }
+  .container-header .titleBtn button {
+    width: 260px;
+  }
+  .container-header .title,
+  .titleDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .container-footer {
+    background-image: -webkit-linear-gradient(
+      -87deg,
+      var(--background) 19.7%,
+      var(--background-details) 20%
+    );
+  }
+}
+@media (min-width: 1024px) {
+  /* Header */
+  .container-header {
+    background-image: -webkit-linear-gradient(
+      82deg,
+      var(--background) 27.8%,
+      var(--background-details) 28%
+    );
+  }
+  .container-header .title h1 {
+    margin-bottom: 24px;
+  }
+  .container-header .titleBtn {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-header .titleBtn button {
+    width: 160px;
+  }
+
+  /* Conteúdo 01 (Texto e Formulário) */
+  .content01 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .content01 .text {
+    width: 520px;
+  }
+  .content01 .formulary {
+    width: 340px;
+  }
+
+  /* Conteúdo 02 (Produtos)*/
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  .products .card {
+    display: block;
+  }
+  .product-description {
+    display: block;
+  }
+  .products .card button {
+    margin-top: 10px;
+  }
+  .products .card img {
+    width: 100%;
+    height: 150px;
+    margin-right: 0;
+  }
+  .products .card .product-desc {
+    padding-top: 14px;
+  }
+
+  /* Conteúdo 03 (Formulário)*/
+  .content03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content03 .friend-camp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+  .content03 .btn-submit {
+    display: flex;
+    justify-content: center;
+  }
+  .content03 .btn-submit button {
+    width: 260px;
+  }
+
+  /* Footer */
+  .container-footer {
+    background-image: -webkit-linear-gradient(
+      -88deg,
+      var(--background) 19.8%,
+      var(--background-details) 20%
+    );
+    padding: 17px;
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
